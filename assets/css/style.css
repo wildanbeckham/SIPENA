@@ -9,6 +9,32 @@ html {
   --primary: #4e9f3d;
 }
 
+/* Navbar */
+#navbar {
+  padding: 20px 0px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 100%;
+}
+
+#navbar .bt {
+  color: #000;
+}
+
+#navbar.scrolled {
+  background-color: #fff;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.bt:hover {
+  color: var(--primary) !important;
+  text-decoration: underline;
+}
+/* Navbar End */
+
 /* Hero */
 #hero {
   color: var(--primary);
